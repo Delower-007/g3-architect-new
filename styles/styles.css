@@ -135,19 +135,54 @@ main {
   max-width: 540px;
 }
 /* Sponsors Releted Styles */
-.sponsor-info{
+.sponsor-info {
   max-width: 540px;
   margin: 50px auto;
   text-align: center;
 }
-.sponsor-title{
+.sponsor-title {
   font-size: 2rem;
   font-weight: bold;
 }
-.sponsor-img{
+.sponsor-img {
   display: grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(5, 1fr);
   filter: grayscale(100%);
+}
+/* Feature and Love Related coding */
+#border-yello {
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+.features-card {
+  display: flex;
+  align-items: center;
+  gap: 140px;
+ 
+}
+.card-features {
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+.card-features .feature-title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#experience-badge{
+  padding: 45px 42px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -100px;
+  margin-top: -120px;
+}
+#experience-year{
+  font-size: 4rem;
+  font-weight: 700;
 }
 
 /* Responsive Media Query */
